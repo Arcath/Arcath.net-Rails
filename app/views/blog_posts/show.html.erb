@@ -1,0 +1,9 @@
+<% title @blog_post.title %>
+
+<h1><%= @blog_post.title %> <%= link_to(image_tag("icons/pencil.png"), edit_blog_post_path(@blog_post)) if can? :edit, @blog_post %> <%= link_to(image_tag("icons/cross.png"), @blog_post, :confirm => 'Are you sure?', :method => :delete) if can? :destroy, @blog_post %></h1>
+
+<%= @blog_post.body.tbbc %>
+
+<h2> Comments</h2>
+
+

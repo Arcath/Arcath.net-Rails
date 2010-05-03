@@ -1,0 +1,40 @@
+<% title "Internet Usage" %>
+
+<h1>Internet Usage</h1>
+
+<table style="float:left;">
+  <tr>
+    <th>Date</th>
+    <th>Ammount</th>
+  </tr>
+  <% for usage in @usages %>
+    <tr>
+      <td><%=h usage.created_at.strftime("%d/%m/%y") %></td>
+      <td><%=h usage.ammount %> GB</td>
+    </tr>
+  <% end %>
+</table>
+
+<div id="stats" style="float:right">The Most downloaded on one day is: <b><%= Usage.find(:first, :order => "ammount DESC").ammount %> GB</b></div>
+<div id="flot" style="width:600px;height:300px;float:right;"></div>
+
+<script id="source" language="javascript" type="text/javascript"> 
+$(function () {
+    var daily = [];
+    var total = [];
+    <% for usage in @usages %>
+	daily.push([<%= usage.created_at.to_i %>,<%= usage.ammount %>]);
+	total.push([<%= usage.created_at.to_i %>,<%= usage.total %>]);
+    <% end %>
+                           
+    $.plot($("#flot"),
+           [ { data: daily, label: "Usage", points: { show: true }, lines: { show: true }, color: "#CC0000", threshold: { below: 2, color: "#00CC00" }},
+             { data: total, label: "Total", yaxis: 2, points: { show: true }, lines: { show: true }, color: "#CC0000", threshold: { below: 55, color: "#0000CC" }}],
+           { 
+             xaxis: { mode: 'time' },
+             yaxis: { tickFormatter: function (v, axis) { return v.toFixed(axis.tickDecimals) +" GB" }},
+             y2axis: { tickFormatter: function (v, axis) { return v.toFixed(axis.tickDecimals) +" GB" }},
+             legend: { position: 'nw' }
+            });
+});
+</script>

@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Arcath.net :: <%= yield(:title) %></title>
+	<%= stylesheet_link_tag "style.css" %>
+	<%= javascript_include_tag "jquery.js" %>
+	<%= javascript_include_tag "flot/jquery.flot.js" %>
+	<%= javascript_include_tag "flot/jquery.flot.threshold.js" %>
+	<%= javascript_include_tag "arcathnet.js" %>
+	<%= TBBC.new.css %>
+</head>
+<body>
+<%= "<div id=\"flash\">#{flash[:notice]}</div>" if flash[:notice] %>
+<%= "<div id=\"flash\" class=\"warning\">#{flash[:error]}</div>" if flash[:error] %>
+<div id="overlay"></div>
+<div id="infobox"><h1 id="infoboxtitle">Login?</h1><div id="infoboxcontent"></div><div class="footer"><a id="infoboxclose">Close</a></div></div>
+<div id="userbarmenu"><ul>
+<li>This did that</li>
+<li>More stuff</li>
+</ul></div>
+<div id="header">
+	<h1>Arcath.net<span></span></h1>
+	<h2>Gems and Rails</h2>
+</div>
+<div id="navigation">
+<div class="link"><%= link_to "Blog", blog_posts_path %></div>
+<% if user_signed_in? then %><div class="link"><%= link_to "Logout", destroy_user_session_path %></div><% end %>
+</div>
+<div id="content"><%= yield %></div>
+<div id="userbar">
+<% if user_signed_in? then %>
+	<div class="activity">Recent Activity</div>
+	Signed in as <%= link_to current_user.username, edit_registration_path(current_user) %>, not you? <%= link_to "Logout", destroy_user_session_path %>
+<% else %>
+	<%= link_to "Sign In/Up", new_user_session_path, :id => "loginlink" %>
+<% end %>
+</div>
+<div id="userpopup"></div>
+</body>
+</html>

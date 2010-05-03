@@ -1,0 +1,9 @@
+one:
+  user_id: 1
+  blog_post_id: 1
+  body: MyText
+
+two:
+  user_id: 1
+  blog_post_id: 1
+  body: MyText

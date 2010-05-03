@@ -1,0 +1,21 @@
+<% title "Blog Comments" %>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Blog Post</th>
+    <th>Body</th>
+  </tr>
+  <% for blog_comments in @blog_comments %>
+    <tr>
+      <td><%=h blog_comments.user_id %></td>
+      <td><%=h blog_comments.blog_post_id %></td>
+      <td><%=h blog_comments.body %></td>
+      <td><%= link_to "Show", blog_comments %></td>
+      <td><%= link_to "Edit", edit_blog_comments_path(blog_comments) %></td>
+      <td><%= link_to "Destroy", blog_comments, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Blog Comments", new_blog_comments_path %></p>
