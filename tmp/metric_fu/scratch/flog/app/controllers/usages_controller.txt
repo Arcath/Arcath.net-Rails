@@ -1,0 +1,7 @@
+     1.8: flog total
+     1.8: flog/method average
+
+     1.8: UsagesController#index
+     1.1: assignment
+     1.1: all
+     0.3: lit_fixnum

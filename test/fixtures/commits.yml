@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  project_id: 1
+  sha1: MyString
+  author_name: MyString
+  author_email: MyString
+  message: MyString
+  url: MyString
+
+two:
+  project_id: 1
+  sha1: MyString
+  author_name: MyString
+  author_email: MyString
+  message: MyString
+  url: MyString

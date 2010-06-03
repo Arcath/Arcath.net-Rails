@@ -10,7 +10,14 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :username, :role
   
-  def role
-  	:member
+  #Roles
+  ROLES = %w[admin moderator author member]
+  
+  def role_symbols
+  	unless username
+  		return :guest
+  	else
+  		return (self.role || :member)
+  	end
   end
 end

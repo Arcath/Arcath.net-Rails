@@ -1,0 +1,21 @@
+<% title "Projects :: #{@project.name}" %>
+
+<h1><%= @project.name %></h1>
+
+<%= link_to "Source", @project.github_url %> | <%= link_to "Wiki", @project.github_wiki %> | <%= link_to "Bug Tracker", @project.github_issues %>
+<br />
+<br />
+<%= @project.description.tbbc %><br />
+<br />
+<% if @posts %>
+	<h2>Blog Posts</h2>
+	<% for post in @posts %>
+		<%= link_to post.title, post %><br />
+	<% end %>
+<% end %>
+<h2>Commits</h2>
+<% for commit in @project.commits[0..9] %>
+	<%= commit.author_name %> @ <%= commit.commited_at %><br />
+	<%= link_to commit.message, commit.url %><br />
+	<br />
+<% end %>

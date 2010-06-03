@@ -15,9 +15,8 @@
   <% end %>
 </table>
 
-<div id="stats" style="float:right">The Most downloaded on one day is: <b><%= Usage.find(:first, :order => "ammount DESC").ammount %> GB</b></div>
+<div id="stats" style="float:right">The Most downloaded on one day is: <b><%= Usage.find(:first, :order => "ammount DESC").ammount %> GB</b><br />The Current Total is <b><%= Usage.last.total %>GB</b></div>
 <div id="flot" style="width:600px;height:300px;float:right;"></div>
-
 <script id="source" language="javascript" type="text/javascript"> 
 $(function () {
     var daily = [];

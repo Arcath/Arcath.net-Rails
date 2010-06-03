@@ -1,0 +1,55 @@
+    44.4: flog total
+     6.3: flog/method average
+
+    12.8: ProjectsController#update        app/controllers/projects_controller.rb:28
+     3.2:   params
+     2.8:   []
+     2.6:   assignment
+     1.4:   flash
+     1.4:   redirect_to
+     1.3:   render
+     1.2:   branch
+     1.2:   find
+     1.2:   update_attributes
+
+     9.9: ProjectsController#create        app/controllers/projects_controller.rb:14
+     2.6:   assignment
+     1.6:   params
+     1.4:   flash
+     1.4:   redirect_to
+     1.4:   []
+     1.3:   render
+     1.2:   save
+     1.2:   branch
+     1.2:   new
+
+     9.5: ProjectsController#destroy       app/controllers/projects_controller.rb:38
+     2.4:   assignment
+     1.6:   params
+     1.4:   projects_url
+     1.4:   []
+     1.2:   redirect_to
+     1.2:   destroy
+     1.2:   flash
+     1.2:   find
+
+     4.4: ProjectsController#show          app/controllers/projects_controller.rb:6
+     1.6:   params
+     1.4:   []
+     1.2:   find
+     1.2:   assignment
+
+     4.4: ProjectsController#edit          app/controllers/projects_controller.rb:24
+     1.6:   params
+     1.4:   []
+     1.2:   find
+     1.2:   assignment
+
+     1.7: ProjectsController#index         app/controllers/projects_controller.rb:2
+     1.2:   assignment
+     1.2:   all
+
+     1.7: ProjectsController#new           app/controllers/projects_controller.rb:10
+     1.2:   assignment
+     1.2:   new
+

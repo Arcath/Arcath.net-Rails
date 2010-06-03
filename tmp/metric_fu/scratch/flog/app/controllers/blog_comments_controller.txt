@@ -1,0 +1,56 @@
+    48.8: flog total
+     7.0: flog/method average
+
+    14.4: BlogCommentsController#create    app/controllers/blog_comments_controller.rb:14
+     3.8:   assignment
+     3.2:   params
+     2.8:   []
+     1.4:   flash
+     1.4:   redirect_to
+     1.4:   blog_comments
+     1.2:   find
+     1.2:   branch
+     1.2:   create!
+     1.2:   save
+
+    12.8: BlogCommentsController#update    app/controllers/blog_comments_controller.rb:27
+     3.2:   params
+     2.8:   []
+     2.6:   assignment
+     1.4:   redirect_to
+     1.4:   flash
+     1.3:   render
+     1.2:   update_attributes
+     1.2:   find
+     1.2:   branch
+
+     9.5: BlogCommentsController#destroy   app/controllers/blog_comments_controller.rb:37
+     2.4:   assignment
+     1.6:   params
+     1.4:   []
+     1.4:   blog_comments_url
+     1.2:   find
+     1.2:   redirect_to
+     1.2:   destroy
+     1.2:   flash
+
+     4.4: BlogCommentsController#edit      app/controllers/blog_comments_controller.rb:23
+     1.6:   params
+     1.4:   []
+     1.2:   find
+     1.2:   assignment
+
+     4.4: BlogCommentsController#show      app/controllers/blog_comments_controller.rb:6
+     1.6:   params
+     1.4:   []
+     1.2:   find
+     1.2:   assignment
+
+     1.7: BlogCommentsController#new       app/controllers/blog_comments_controller.rb:10
+     1.2:   assignment
+     1.2:   new
+
+     1.7: BlogCommentsController#index     app/controllers/blog_comments_controller.rb:2
+     1.2:   assignment
+     1.2:   all
+

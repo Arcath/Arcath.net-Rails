@@ -1,0 +1,16 @@
+    10.6: flog total
+     2.7: flog/method average
+
+     4.8: Ability#member                   app/models/ability.rb:12
+     3.6:   can
+     1.2:   based_on
+
+     2.4: Ability#guest                    app/models/ability.rb:7
+     2.4:   can
+
+     2.2: Ability#none
+     2.2:   include
+
+     1.2: Ability#role                     app/models/ability.rb:3
+     1.2:   role
+

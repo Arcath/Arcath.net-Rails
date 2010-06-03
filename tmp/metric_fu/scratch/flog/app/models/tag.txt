@@ -1,0 +1,6 @@
+     2.2: flog total
+     2.2: flog/method average
+
+     2.2: Tag#none
+     2.2:   has_many
+

@@ -32,4 +32,17 @@ $(document).ready(function(){
 	window.setTimeout(function() {
 		$('#flash').slideUp("slow")
 	}, 3000);
+	$('#tagcloudul').tagcloud({height:150,colormin:"8EB200",colormax:"84A5DA"});
+	$('.pagination a').live("click",function(){
+		$('#pagination').html("Page is loading...");
+		$.getScript(this.href);
+		return false
+	});
+	$.fragmentChange(true);
+	$(document).bind("fragmentChange.page", function(){
+		$.getScript($.queryString(document.location.href, { "page" : $.fragment().page }));
+	});
+	if ($.fragment().page) {
+		$(document).trigger("fragmentChange.page");
+	}
 });

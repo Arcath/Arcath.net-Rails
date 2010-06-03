@@ -1,0 +1,15 @@
+     7.2: flog total
+     2.4: flog/method average
+
+     2.4: Project#github_issues            app/models/project.rb:10
+     1.2:   git_user
+     1.2:   git_repo
+
+     2.4: Project#github_wiki              app/models/project.rb:6
+     1.2:   git_user
+     1.2:   git_repo
+
+     2.4: Project#github_url               app/models/project.rb:2
+     1.2:   git_user
+     1.2:   git_repo
+

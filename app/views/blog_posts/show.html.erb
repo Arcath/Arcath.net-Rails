@@ -4,6 +4,20 @@
 
 <%= @blog_post.body.tbbc %>
 
-<h2> Comments</h2>
+<h2><%= @blog_post.blog_comments.count %> Comments</h2>
 
+<% @blog_post.blog_comments.each do |comment| %>
+	<h3><%= comment.user.username %></h3>
+	<%= comment.body %>
+<% end %>
 
+<% if can? :new, BlogComment %>
+	<% form_for [@blog_post, BlogComment.new] do |f| %>
+		<p>
+			<%= f.label :body, "New Comment" %><br />
+			<%= f.text_area :body %>
+			<%= f.hidden_field :user_id, :value => current_user.id %>
+		</p>
+		<p><%= f.submit "Add Comment" %></p>
+	<% end %>
+<% end %>

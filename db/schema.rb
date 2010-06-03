@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100502185439) do
+ActiveRecord::Schema.define(:version => 20100603164848) do
 
   create_table "blog_comments", :force => true do |t|
     t.integer  "user_id"
@@ -27,9 +27,43 @@ ActiveRecord::Schema.define(:version => 20100502185439) do
     t.datetime "updated_at"
   end
 
+  create_table "commits", :force => true do |t|
+    t.integer  "project_id"
+    t.string   "sha1"
+    t.string   "author_name"
+    t.string   "author_email"
+    t.string   "message"
+    t.string   "url"
+    t.datetime "commited_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "pages", :force => true do |t|
     t.string   "title"
     t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "projects", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "git_user"
+    t.string   "git_repo"
+  end
+
+  create_table "taggings", :force => true do |t|
+    t.integer  "tag_id"
+    t.integer  "blog_post_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tags", :force => true do |t|
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -55,6 +89,7 @@ ActiveRecord::Schema.define(:version => 20100502185439) do
     t.string   "username"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "role"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

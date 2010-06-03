@@ -1,0 +1,14 @@
+<% title "Projects" %>
+
+<%= link_to image_tag("icons/add_project.png"), new_project_path %>
+
+<% for project in @projects do %>
+	<h2><%= image_tag "icons/project.png" %> <%= link_to project.name, project %> <%= link_to(image_tag("icons/pencil.png"),edit_project_path(project)) if can? :edit, project %></h2>
+	<%= project.description.summerize.first %><br />
+	<b><%= project.commits.count %></b> Commits
+	<% if project.has_commits? %>
+		 | Last Commited at: <b><%= project.commits.first.commited_at %></b>
+		 | Last Commit: <b><%= project.commits.first.message %></b>
+	<% end %>
+	<br /><br />
+<% end %>

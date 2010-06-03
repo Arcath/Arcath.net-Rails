@@ -8,6 +8,15 @@ body{
 	font: normal 1em 'Trebuchet MS', Tahoma, Arial, Sans-serif;
 }
 
+a{
+	text-decoration:none;
+	color:#8EB200;
+}
+
+a:hover{
+	color:#84A5DA;
+}
+
 #header{
 	position:fixed;
 	padding-left:20%;
@@ -17,6 +26,7 @@ body{
 	padding-top:20px;
 	height:130px;
 	border-bottom:#FFFFFF solid 2px;
+	z-index:1000;
 }
 
 #header h1{
@@ -56,6 +66,7 @@ body{
 	text-align:center;
 	color:#FFFFFF;
 	height:2.4em;
+	z-index:1000;
 }
 
 #navigation a{
@@ -142,6 +153,15 @@ body{
 
 #userbarmenu li{
 	padding:2px;
+}
+
+#userbar a{
+	color:#84A5DA;
+}
+
+
+#userbar a:hover{
+	color:#84A5DA;
 }
 
 #overlay{
@@ -258,4 +278,54 @@ table{
 .warning{
 	background-color:rgb(128,0,0);
 	background-color:rgba(128,0,0,.8);
+}
+
+#tagcloud{
+	float:right;
+	width:300px;
+	border:#000000 solid 1px;
+	height:200px
+}
+#tag{
+	float:right;
+}
+
+#date{
+	background-color:#8EB200;
+	float:left;
+	position:relative;
+	padding:45px 5px 0px;
+	margin-right:10px;
+	margin-top:10px;
+	min-width:60px;
+	
+}
+
+#date #year{
+	display:block; 
+	position:absolute;
+	right:-5px;
+	top:15px;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#date #day{
+	font-size:45px;
+	line-height:45px;
+	position:absolute; left:5px; top:0px;
+}
+
+#date #month{
+	text-transform: uppercase;
+	font-size:25px;
+}
+
+#splashbox{
+	float:left;
+	margin:10px;
+	width:40%;
+	font-size:100px;
+	text-align:center;
 }

@@ -1,0 +1,12 @@
+     6.1: flog total
+     3.0: flog/method average
+
+     4.4: User#none
+     2.2:   has_many
+     1.1:   devise
+     1.1:   attr_accessible
+
+     1.7: User#role                        app/models/user.rb:13
+     1.2:   username
+     1.2:   branch
+

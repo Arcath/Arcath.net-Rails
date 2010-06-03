@@ -1,10 +1,16 @@
 <html>
 <head>
 	<title>Arcath.net :: <%= yield(:title) %></title>
+	<%= auto_discovery_link_tag(:rss, {:controller => "blog_posts", :format => :rss}) %>
 	<%= stylesheet_link_tag "style.css" %>
 	<%= javascript_include_tag "jquery.js" %>
 	<%= javascript_include_tag "flot/jquery.flot.js" %>
 	<%= javascript_include_tag "flot/jquery.flot.threshold.js" %>
+	<%= javascript_include_tag "jquery.fieldselection.js" %>
+	<%= javascript_include_tag "jquery.tinysort.js" %>
+	<%= javascript_include_tag "jquery.tagcloud.js" %>
+	<%= javascript_include_tag "jquery.ba-url.js" %>
+	<%= javascript_include_tag "tbbce.js" %>
 	<%= javascript_include_tag "arcathnet.js" %>
 	<%= TBBC.new.css %>
 </head>
@@ -23,6 +29,7 @@
 </div>
 <div id="navigation">
 <div class="link"><%= link_to "Blog", blog_posts_path %></div>
+<div class="link"><%= link_to "Projects", projects_path %></div>
 <% if user_signed_in? then %><div class="link"><%= link_to "Logout", destroy_user_session_path %></div><% end %>
 </div>
 <div id="content"><%= yield %></div>

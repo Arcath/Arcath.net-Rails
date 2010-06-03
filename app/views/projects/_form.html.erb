@@ -1,0 +1,20 @@
+<% form_for @project do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.tbbce :description %>
+  </p>
+  <p>
+  	<%= f.label :git_user %><br />
+  	<%= f.text_field :git_user %>
+  </p>
+  <p>
+  	<%= f.label :git_repo %><br />
+  	<%= f.text_field :git_repo %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

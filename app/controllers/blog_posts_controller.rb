@@ -1,7 +1,7 @@
 class BlogPostsController < ApplicationController
   load_and_authorize_resource
   def index
-    @blog_posts = BlogPost.all(:order => "created_at DESC")
+    @blog_posts=BlogPost.homepage(params[:page],params[:tag],params[:search],6)
   end
   
   def show

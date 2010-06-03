@@ -1,0 +1,15 @@
+<% for blog_post in @blog_posts %>
+	<div id="blog_post">
+	<div id="date"><div id="year"><%= blog_post.created_at.year %></div><div id="day"><%= blog_post.created_at.day %></div><div id="month"><%= blog_post.created_at.strftime("%B") %></div></div>
+	<h1><%= blog_post.title %> <%= link_to(image_tag("icons/pencil.png"), edit_blog_post_path(blog_post)) if can? :edit, blog_post %></h1>
+	Written by <%= blog_post.user.username %> at <%= blog_post.created_at %><br />
+	<br />
+	<% sum=blog_post.body.tbbc.summerize %>
+	<%= sum.first %>
+	<% if sum.last then %>
+	<%= link_to "Read More...", blog_post_path(blog_post) %><br /><br />
+	<% end %>
+	Tags: <%= blog_post.linked_tag_names %></div>
+<% end %>
+<br />
+<%= will_paginate @blog_posts %>
