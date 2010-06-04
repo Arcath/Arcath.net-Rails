@@ -11,12 +11,12 @@ class Ability
 	
 	def member
 		based_on :guest
-		can :manage, BlogPost
 		can :manage, BlogComment
-		can :manage, Project
 	end
 	
 	def admin
 		based_on :member
+		can :manage, Project
+		can :manage, BlogPost
 	end
 end

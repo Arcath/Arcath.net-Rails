@@ -37629,3 +37629,393 @@ DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :data
   [4;36;1mCommit Load (0.8ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
   [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
 Completed in 402ms (View: 349, DB: 22) | 200 OK [http://localhost/projects]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-06-04 07:22:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mProject Load (0.6ms)[0m   [0;1mSELECT * FROM `projects` ORDER BY name ASC[0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;35;1mProject Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mCommit Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `commits`[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;35;1mCommit Load (1.1ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;35;1mCommit Load (1.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;35;1mCommit Load (1.1ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;35;1mCommit Load (0.9ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;35;1mCommit Load (0.9ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;35;1mCommit Load (1.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;35;1mCommit Load (1.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+Completed in 409ms (View: 353, DB: 24) | 200 OK [http://localhost/projects]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsagesController#index (for 127.0.0.1 at 2010-06-04 07:22:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"usages"}
+  [4;35;1mUsage Load (1.3ms)[0m   [0mSELECT * FROM `usages` ORDER BY created_at DESC LIMIT 30[0m
+Rendering template within layouts/application
+Rendering usages/index
+  [4;36;1mUsage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `usages`[0m
+  [4;35;1mUsage Load (1.0ms)[0m   [0mSELECT * FROM `usages` ORDER BY ammount DESC LIMIT 1[0m
+  [4;36;1mUsage Load (1.1ms)[0m   [0;1mSELECT * FROM `usages` ORDER BY usages.id DESC LIMIT 1[0m
+  [4;35;1mUsage Load (2.0ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-06-03 22:55:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-06-03 22:55:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.7ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-06-02 22:55:15') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.4ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-06-01 22:55:09') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.3ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-30 22:55:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (9.5ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-29 22:55:13') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-28 22:55:12') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-27 22:55:09') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-26 22:55:10') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.4ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-25 22:55:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-24 22:55:07') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-23 22:55:15') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.3ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 22:55:07') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 08:40:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 08:30:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 08:20:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 08:10:10') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 08:00:09') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 07:50:07') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.4ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-22 07:15:51') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.3ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-19 06:16:29') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-17 22:59:09') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-16 22:59:09') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-15 22:59:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.3ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-14 22:59:09') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.3ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-13 22:59:10') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-12 22:59:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.2ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-11 22:59:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-10 22:59:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;36;1mUsage Load (1.7ms)[0m   [0;1mSELECT * FROM `usages` WHERE (created_at <= '2010-05-09 22:59:08') ORDER BY created_at DESC LIMIT 30[0m
+  [4;35;1mUsage Load (1.2ms)[0m   [0mSELECT * FROM `usages` WHERE (created_at <= '2010-05-08 22:59:10') ORDER BY created_at DESC LIMIT 30[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 502ms (View: 415, DB: 55) | 200 OK [http://localhost/usages]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-06-04 07:30:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mProject Load (0.6ms)[0m   [0;1mSELECT * FROM `projects` ORDER BY name ASC[0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;35;1mProject Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mCommit Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `commits`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;35;1mCommit Load (0.6ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;35;1mCommit Load (0.7ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;35;1mCommit Load (0.7ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;35;1mCommit Load (0.6ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;35;1mCommit Load (0.6ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;35;1mCommit Load (0.6ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;35;1mCommit Load (0.7ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+Completed in 360ms (View: 314, DB: 15) | 200 OK [http://localhost/projects]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-06-04 07:30:31) [GET]
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"projects"}
+  [4;35;1mProject Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Load (0.6ms)[0m   [0;1mSELECT * FROM `projects` WHERE (`projects`.`id` = 5) [0m
+  [4;35;1mTag Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (0.6ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'Arcath.net') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'Arcath.net') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering projects/show
+  [4;36;1mBlogPost Load (0.8ms)[0m   [0;1mSELECT `blog_posts`.* FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 2)) [0m
+  [4;35;1mBlogPost Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `blog_posts`[0m
+  [4;36;1mCommit Load (1.3ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;35;1mCommit Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `commits`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 474ms (View: 228, DB: 11) | 200 OK [http://localhost/projects/5]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BlogPostsController#index (for 127.0.0.1 at 2010-06-04 07:30:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"blog_posts"}
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mUser Load (1.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mBlogPost Load (1.2ms)[0m   [0;1mSELECT * FROM `blog_posts` ORDER BY created_at DESC LIMIT 0, 6[0m
+  [4;35;1mBlogPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `blog_posts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` [0m
+Rendering template within layouts/application
+Rendering blog_posts/index
+  [4;35;1mBlogPost Load (1.2ms)[0m   [0mSELECT * FROM `blog_posts` [0m
+  [4;36;1mTag Load (0.5ms)[0m   [0;1mSELECT * FROM `tags` [0m
+  [4;35;1mTag Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 1)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 2)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 3)) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 4)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 5)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 6)) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 7)) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 8)) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 9)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 10)) [0m
+  [4;36;1mSQL (29.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 11)) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 12)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 13)) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 14)) [0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (1.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 8)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 7)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.7ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 6)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 5)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 4)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 3)) [0m
+Rendered blog_posts/_blog (309.0ms)
+Completed in 779ms (View: 581, DB: 52) | 200 OK [http://localhost/blog_posts]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-06-04 07:30:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;36;1mProject Load (0.6ms)[0m   [0;1mSELECT * FROM `projects` ORDER BY name ASC[0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;35;1mProject Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mCommit Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `commits`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;35;1mCommit Load (0.6ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;35;1mCommit Load (0.7ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;35;1mCommit Load (0.7ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;35;1mCommit Load (0.6ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;35;1mCommit Load (0.7ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;35;1mCommit Load (0.6ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;35;1mCommit Load (0.8ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+Completed in 376ms (View: 324, DB: 16) | 200 OK [http://localhost/projects]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-06-04 07:30:53) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"projects"}
+  [4;35;1mProject Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Load (0.6ms)[0m   [0;1mSELECT * FROM `projects` WHERE (`projects`.`id` = 3) [0m
+  [4;35;1mTag Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (1.1ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'MyCanCanFork') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering projects/show
+  [4;35;1mCommit Load (2.3ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;36;1mCommit Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `commits`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;35;1mUser Load (1.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 257ms (View: 172, DB: 12) | 200 OK [http://localhost/projects/3]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-06-04 07:30:57) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"projects"}
+  [4;35;1mProject Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM `projects` WHERE (`projects`.`id` = 1) [0m
+  [4;35;1mTag Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mTag Load (0.9ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'RIRCB') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'RIRCB') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering projects/show
+  [4;36;1mBlogPost Load (1.3ms)[0m   [0;1mSELECT `blog_posts`.* FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 5)) [0m
+  [4;35;1mBlogPost Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `blog_posts`[0m
+  [4;36;1mCommit Load (1.3ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;35;1mCommit Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `commits`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 311ms (View: 200, DB: 12) | 200 OK [http://localhost/projects/1]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-06-04 07:31:08) [GET]
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"projects"}
+  [4;36;1mProject Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Load (0.6ms)[0m   [0mSELECT * FROM `projects` WHERE (`projects`.`id` = 5) [0m
+  [4;36;1mTag Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mTag Load (0.5ms)[0m   [0mSELECT * FROM `tags` WHERE (`tags`.`name` = 'Arcath.net') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `tags` WHERE (`tags`.`name` = 'Arcath.net') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering projects/show
+  [4;35;1mBlogPost Load (0.9ms)[0m   [0mSELECT `blog_posts`.* FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 2)) [0m
+  [4;36;1mBlogPost Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `blog_posts`[0m
+  [4;35;1mCommit Load (0.7ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;36;1mCommit Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `commits`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 300ms (View: 200, DB: 12) | 200 OK [http://localhost/projects/5]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-06-04 07:31:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+  [4;35;1mProject Load (0.6ms)[0m   [0mSELECT * FROM `projects` ORDER BY name ASC[0m
+Rendering template within layouts/application
+Rendering projects/index
+  [4;36;1mProject Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead.. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;35;1mUser Load (0.9ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mCommit Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `commits`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 5) [0m
+  [4;36;1mCommit Load (0.7ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 5) LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 3) [0m
+  [4;36;1mCommit Load (1.2ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 3) LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 7) [0m
+  [4;36;1mCommit Load (0.7ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 2) [0m
+  [4;36;1mCommit Load (0.6ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 2) LIMIT 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 1) [0m
+  [4;36;1mCommit Load (0.6ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 4) [0m
+  [4;36;1mCommit Load (0.7ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 4) LIMIT 1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM `commits` WHERE (`commits`.project_id = 6) [0m
+  [4;36;1mCommit Load (0.7ms)[0m   [0;1mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `commits` WHERE (`commits`.project_id = 6) LIMIT 1[0m
+Completed in 497ms (View: 450, DB: 16) | 200 OK [http://localhost/projects]
+DEPRECATION WARNING: :authenticatable as module is deprecated. Please give :database_authenticatable instead. (called from /home/arcath/ranet/app/models/user.rb:4)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing BlogPostsController#index (for 127.0.0.1 at 2010-06-04 07:52:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"blog_posts"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mBlogPost Load (1.3ms)[0m   [0;1mSELECT * FROM `blog_posts` ORDER BY created_at DESC LIMIT 0, 6[0m
+  [4;35;1mBlogPost Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `blog_posts`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` [0m
+Rendering template within layouts/application
+Rendering blog_posts/index
+  [4;35;1mBlogPost Load (1.2ms)[0m   [0mSELECT * FROM `blog_posts` [0m
+  [4;36;1mTag Load (0.5ms)[0m   [0;1mSELECT * FROM `tags` [0m
+  [4;35;1mTag Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `tags`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 1)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 2)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 3)) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 4)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 5)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 6)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 7)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 8)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 9)) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 10)) [0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 11)) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 12)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 13)) [0m
+  [4;35;1mSQL (1.7ms)[0m   [0mSELECT count(*) AS count_all FROM `blog_posts` INNER JOIN `taggings` ON `blog_posts`.id = `taggings`.blog_post_id WHERE ((`taggings`.tag_id = 14)) [0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 8)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 7)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 6)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 5)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 4)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.blog_post_id = 3)) [0m
+Rendered blog_posts/_blog (848.5ms)
+Completed in 1255ms (View: 1119, DB: 23) | 200 OK [http://localhost/blog_posts]
