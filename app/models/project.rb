@@ -1,5 +1,5 @@
 class Project < ActiveRecord::Base
-	has_many :commits
+	has_many :commits, :order => "commited_at DESC"
 
 	def github_url
 		"http://github.com/#{git_user}/#{git_repo}"
