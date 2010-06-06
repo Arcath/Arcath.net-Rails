@@ -4,3 +4,17 @@
 
 <div id="splashbox"><%= link_to 'Blog', blog_posts_path %></div>
 <div id="splashbox"><%= link_to 'Projects', projects_path %></div>
+<div id="splashcontent"><h1>Recent Commits</h1>
+<% for commit in Commit.all(:order => "commited_at DESC", :limit => 10) %>
+	<%= commit.author_name %> @ <%= commit.commited_at %><br />
+	<%= link_to commit.message, commit.url %><br />
+	<br />
+<% end %>
+</div>
+<div id="splashcontent"><h1>Tweets</h1>
+<% for tweet in Tweet.all(:order => "tweeted_at DESC", :limit => 10) %>
+	<%= tweet.tweeter %> @ <%= tweet.tweeted_at %><br />
+	<%= tweet.message.gsub(/^#{tweet.tweeter}: /,"") %><br />
+	<br />
+<% end %>
+</div>

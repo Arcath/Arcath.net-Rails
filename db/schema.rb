@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100603164848) do
+ActiveRecord::Schema.define(:version => 20100605102320) do
 
   create_table "blog_comments", :force => true do |t|
     t.integer  "user_id"
@@ -64,6 +64,16 @@ ActiveRecord::Schema.define(:version => 20100603164848) do
 
   create_table "tags", :force => true do |t|
     t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "tweets", :force => true do |t|
+    t.string   "twitter_id"
+    t.string   "url"
+    t.string   "tweeter"
+    t.string   "message"
+    t.datetime "tweeted_at"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
