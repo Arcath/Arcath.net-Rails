@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100605102320) do
+ActiveRecord::Schema.define(:version => 20100620114618) do
 
   create_table "blog_comments", :force => true do |t|
     t.integer  "user_id"
@@ -105,5 +105,16 @@ ActiveRecord::Schema.define(:version => 20100605102320) do
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
   add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token", :unique => true
   add_index "users", ["username"], :name => "index_users_on_username", :unique => true
+
+  create_table "warriors", :force => true do |t|
+    t.string   "name"
+    t.integer  "gist"
+    t.integer  "user_id"
+    t.integer  "score"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "extended_score"
+    t.string   "tower"
+  end
 
 end

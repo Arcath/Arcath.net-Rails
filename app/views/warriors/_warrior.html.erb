@@ -1,0 +1,5 @@
+<b>Score</b>: <%= @warrior.score %><br />
+<b>Tower</b>: <%= Warrior::TOWERS[@warrior.tower] %><br />
+<b>Rank</b>: <%= @warrior.rank %><br />
+<b>Detailed Score</b>:<br />
+<%= @warrior.extended_score.tbbc %>

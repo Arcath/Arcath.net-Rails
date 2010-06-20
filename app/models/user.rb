@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
          
   has_many :blog_posts
   has_many :blog_comments
+  has_many :warriors
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :username, :role

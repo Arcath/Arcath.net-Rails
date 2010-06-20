@@ -1,0 +1,19 @@
+To add you warrior you need 2 things, a name for your warrior and a Gist with the player.rb and .profile file.<br />
+<br />
+An example of this is <%= link_to "my rubywarrior", "http://gist.github.com/438262", :target => "_BLANK" %>.<br />
+<br />
+<b>Your Warrior:</b><br />
+<% form_for @warrior do |f| %>
+  <%= f.error_messages %>
+  <%= f.hidden_field :user_id, :value => current_user.id %>
+  <%= f.hidden_field :score, :value => 0 %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :gist %> - This is the id of the gist (after http://gist.github.com/ in the URL of your gist)<br />
+    <%= f.text_field :gist %>
+  </p>
+  <p><%= f.submit "New Warrior" %></p>
+<% end %>

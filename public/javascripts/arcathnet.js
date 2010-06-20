@@ -13,6 +13,18 @@ $(document).ready(function(){
 		$('#infobox').show("slow");
 		return false
 	});
+	$('#newwarrior').live("click",function(){
+		$.getScript('/warriors/new');
+		$('#overlay').fadeIn("slow");
+		$('#infobox').show("slow");
+		return false
+	});
+	$('#rw-scores a').live("click",function(){
+		$.getScript(this.href);
+		$('#overlay').fadeIn("slow");
+		$('#infobox').show("slow");
+		return false
+	});
 	$('#overlay').live("click",function(){
 		$('#infobox').css("display","none");
 		$(this).fadeOut("slow");

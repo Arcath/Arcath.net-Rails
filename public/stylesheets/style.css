@@ -91,7 +91,7 @@ a:hover{
 	float:left;
 	margin-left:5px;
 	z-index:500;
-	width:60px;
+	width:100px;
 }
 
 #content{
@@ -233,7 +233,7 @@ a:hover{
 	-webkit-border-bottom-right-radius:20px;
 }
 
-#infobox a, #infobox a:visited{
+#infobox .footer a, #infobox .footer a:visited{
 	color:#FFFFFF;
 	text-decoration:none;
 }
@@ -312,7 +312,7 @@ table{
 }
 
 #date #day{
-	font-size:45px;
+	font-size:45px;.
 	line-height:45px;
 	position:absolute; left:5px; top:0px;
 }
@@ -333,4 +333,9 @@ table{
 	float:left;
 	margin:10px;
 	width:40%;
+}
+
+#rw-scores{
+	float:left;
+	width:200px;
 }

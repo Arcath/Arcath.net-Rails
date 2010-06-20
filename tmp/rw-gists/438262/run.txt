@@ -1,0 +1,1698 @@
+Welcome to Ruby Warrior
+Starting Level 1
+- turn 1 -
+ ------
+|      |
+|@     |
+|      |
+|  >   |
+ ------
+Arcath walks right
+- turn 2 -
+ ------
+|      |
+|      |
+|@     |
+|  >   |
+ ------
+Arcath walks forward
+- turn 3 -
+ ------
+|      |
+|      |
+| @    |
+|  >   |
+ ------
+Arcath walks right
+- turn 4 -
+ ------
+|      |
+|      |
+|      |
+| @>   |
+ ------
+Arcath walks forward
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 16
+Clear Bonus: 3
+Level Grade: S
+Total Score: 19
+Starting Level 2
+- turn 1 -
+ ----
+|@s  |
+| sS>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 17 health power left
+- turn 2 -
+ ----
+|@s  |
+| sS>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 14 health power left
+- turn 3 -
+ ----
+|@s  |
+| sS>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 4 -
+ ----
+|@   |
+| sS>|
+ ----
+Arcath walks forward
+- turn 5 -
+ ----
+| @  |
+| sS>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 11 health power left
+- turn 6 -
+ ----
+| @  |
+| sS>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 7 -
+ ----
+| @  |
+| sS>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 8 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath receives 2 health from resting, up to 10 health
+- turn 9 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath receives 2 health from resting, up to 12 health
+- turn 10 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath walks right
+- turn 11 -
+ ----
+|    |
+| @S>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 19 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 9 health power left
+- turn 12 -
+ ----
+|    |
+| @S>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 14 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 6 health power left
+- turn 13 -
+ ----
+|    |
+| @S>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 9 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 3 health power left
+- turn 14 -
+ ----
+|    |
+| @S>|
+ ----
+Arcath walks left
+Thick Sludge attacks and hits nothing
+- turn 15 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath receives 2 health from resting, up to 5 health
+- turn 16 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath receives 2 health from resting, up to 7 health
+- turn 17 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath receives 2 health from resting, up to 9 health
+- turn 18 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath receives 2 health from resting, up to 11 health
+- turn 19 -
+ ----
+| @  |
+|  S>|
+ ----
+Arcath walks right
+- turn 20 -
+ ----
+|    |
+| @S>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 4 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 21 -
+ ----
+|    |
+| @S>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, -1 health power left
+Thick Sludge dies
+Arcath earns 24 points
+- turn 22 -
+ ----
+|    |
+| @ >|
+ ----
+Arcath receives 2 health from resting, up to 10 health
+- turn 23 -
+ ----
+|    |
+| @ >|
+ ----
+Arcath receives 2 health from resting, up to 12 health
+- turn 24 -
+ ----
+|    |
+| @ >|
+ ----
+Arcath walks forward
+- turn 25 -
+ ----
+|    |
+|  @>|
+ ----
+Arcath walks forward
+Success! You have found the stairs.
+Level Score: 48
+Time Bonus: 15
+Clear Bonus: 13
+Level Grade: A
+Total Score: 19 + 76 = 95
+Starting Level 3
+- turn 1 -
+ ---
+|>s |
+|s@s|
+| C |
+ ---
+Arcath binds Sludge
+Sludge attacks Arcath
+Arcath takes 2 damage, 18 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 15 health power left
+- turn 2 -
+ ---
+|>s |
+|s@s|
+| C |
+ ---
+Arcath binds Sludge
+Sludge attacks Arcath
+Arcath takes 2 damage, 13 health power left
+- turn 3 -
+ ---
+|>s |
+|s@s|
+| C |
+ ---
+Arcath attacks Sludge
+Sludge takes 3 damage, 9 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 11 health power left
+- turn 4 -
+ ---
+|>s |
+|s@s|
+| C |
+ ---
+Arcath attacks Sludge
+Sludge takes 3 damage, 6 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 9 health power left
+- turn 5 -
+ ---
+|>s |
+|s@s|
+| C |
+ ---
+Arcath attacks Sludge
+Sludge takes 3 damage, 3 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 7 health power left
+- turn 6 -
+ ---
+|>s |
+|s@s|
+| C |
+ ---
+Arcath attacks Sludge
+Sludge takes 3 damage, 0 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 7 -
+ ---
+|>s |
+| @s|
+| C |
+ ---
+Arcath receives 2 health from resting, up to 9 health
+- turn 8 -
+ ---
+|>s |
+| @s|
+| C |
+ ---
+Arcath receives 2 health from resting, up to 11 health
+- turn 9 -
+ ---
+|>s |
+| @s|
+| C |
+ ---
+Arcath unbinds Sludge
+Sludge released from bonds
+Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 10 -
+ ---
+|>s |
+| @s|
+| C |
+ ---
+Arcath attacks Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 11 -
+ ---
+|>s |
+| @s|
+| C |
+ ---
+Arcath attacks Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 2 health power left
+- turn 12 -
+ ---
+|>s |
+| @s|
+| C |
+ ---
+Arcath walks backward
+Sludge attacks and hits nothing
+- turn 13 -
+ ---
+|>s |
+|@ s|
+| C |
+ ---
+Arcath receives 2 health from resting, up to 4 health
+- turn 14 -
+ ---
+|>s |
+|@ s|
+| C |
+ ---
+Arcath receives 2 health from resting, up to 6 health
+- turn 15 -
+ ---
+|>s |
+|@ s|
+| C |
+ ---
+Arcath receives 2 health from resting, up to 8 health
+- turn 16 -
+ ---
+|>s |
+|@ s|
+| C |
+ ---
+Arcath receives 2 health from resting, up to 10 health
+- turn 17 -
+ ---
+|>s |
+|@ s|
+| C |
+ ---
+Arcath receives 2 health from resting, up to 12 health
+- turn 18 -
+ ---
+|>s |
+|@ s|
+| C |
+ ---
+Arcath walks right
+- turn 19 -
+ ---
+|>s |
+|  s|
+|@C |
+ ---
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 20 -
+ ---
+|>s |
+|  s|
+|@  |
+ ---
+Arcath walks forward
+- turn 21 -
+ ---
+|>s |
+|  s|
+| @ |
+ ---
+Arcath walks left
+- turn 22 -
+ ---
+|>s |
+| @s|
+|   |
+ ---
+Arcath attacks Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 23 -
+ ---
+|>  |
+| @s|
+|   |
+ ---
+Arcath unbinds Sludge
+Sludge released from bonds
+Sludge attacks Arcath
+Arcath takes 3 damage, 9 health power left
+- turn 24 -
+ ---
+|>  |
+| @s|
+|   |
+ ---
+Arcath attacks Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 6 health power left
+- turn 25 -
+ ---
+|>  |
+| @s|
+|   |
+ ---
+Arcath attacks Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 3 health power left
+- turn 26 -
+ ---
+|>  |
+| @s|
+|   |
+ ---
+Arcath walks right
+Sludge attacks and hits nothing
+- turn 27 -
+ ---
+|>  |
+|  s|
+| @ |
+ ---
+Arcath receives 2 health from resting, up to 5 health
+- turn 28 -
+ ---
+|>  |
+|  s|
+| @ |
+ ---
+Arcath receives 2 health from resting, up to 7 health
+- turn 29 -
+ ---
+|>  |
+|  s|
+| @ |
+ ---
+Arcath receives 2 health from resting, up to 9 health
+- turn 30 -
+ ---
+|>  |
+|  s|
+| @ |
+ ---
+Arcath receives 2 health from resting, up to 11 health
+- turn 31 -
+ ---
+|>  |
+|  s|
+| @ |
+ ---
+Arcath walks left
+- turn 32 -
+ ---
+|>  |
+| @s|
+|   |
+ ---
+Arcath attacks Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 33 -
+ ---
+|>  |
+| @ |
+|   |
+ ---
+Arcath walks left
+- turn 34 -
+ ---
+|>@ |
+|   |
+|   |
+ ---
+Arcath walks backward
+Success! You have found the stairs.
+Level Score: 56
+Time Bonus: 16
+Clear Bonus: 14
+Level Grade: B
+Total Score: 95 + 86 = 181
+Starting Level 4
+- turn 1 -
+ ----
+|C s |
+| @ S|
+|C s>|
+ ----
+Arcath walks left
+- turn 2 -
+ ----
+|C@s |
+|   S|
+|C s>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 17 health power left
+- turn 3 -
+ ----
+|C@s |
+|   S|
+|C s>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 14 health power left
+- turn 4 -
+ ----
+|C@s |
+|   S|
+|C s>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 5 -
+ ----
+|C@  |
+|   S|
+|C s>|
+ ----
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 6 -
+ ----
+| @  |
+|   S|
+|C s>|
+ ----
+Arcath walks forward
+- turn 7 -
+ ----
+|  @ |
+|   S|
+|C s>|
+ ----
+Arcath walks right
+- turn 8 -
+ ----
+|    |
+|  @S|
+|C s>|
+ ----
+Arcath binds Sludge
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 11 health power left
+- turn 9 -
+ ----
+|    |
+|  @S|
+|C s>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 19 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 10 -
+ ----
+|    |
+|  @S|
+|C s>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 14 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 11 -
+ ----
+|    |
+|  @S|
+|C s>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 9 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 2 health power left
+- turn 12 -
+ ----
+|    |
+|  @S|
+|C s>|
+ ----
+Arcath walks left
+Thick Sludge attacks and hits nothing
+- turn 13 -
+ ----
+|  @ |
+|   S|
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 4 health
+- turn 14 -
+ ----
+|  @ |
+|   S|
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 6 health
+- turn 15 -
+ ----
+|  @ |
+|   S|
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 8 health
+- turn 16 -
+ ----
+|  @ |
+|   S|
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 10 health
+- turn 17 -
+ ----
+|  @ |
+|   S|
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 12 health
+- turn 18 -
+ ----
+|  @ |
+|   S|
+|C s>|
+ ----
+Arcath walks right
+- turn 19 -
+ ----
+|    |
+|  @S|
+|C s>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 4 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 9 health power left
+- turn 20 -
+ ----
+|    |
+|  @S|
+|C s>|
+ ----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, -1 health power left
+Thick Sludge dies
+Arcath earns 24 points
+- turn 21 -
+ ----
+|    |
+|  @ |
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 11 health
+- turn 22 -
+ ----
+|    |
+|  @ |
+|C s>|
+ ----
+Arcath unbinds Sludge
+Sludge released from bonds
+Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 23 -
+ ----
+|    |
+|  @ |
+|C s>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 24 -
+ ----
+|    |
+|  @ |
+|C s>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 2 health power left
+- turn 25 -
+ ----
+|    |
+|  @ |
+|C s>|
+ ----
+Arcath walks left
+Sludge attacks and hits nothing
+- turn 26 -
+ ----
+|  @ |
+|    |
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 4 health
+- turn 27 -
+ ----
+|  @ |
+|    |
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 6 health
+- turn 28 -
+ ----
+|  @ |
+|    |
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 8 health
+- turn 29 -
+ ----
+|  @ |
+|    |
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 10 health
+- turn 30 -
+ ----
+|  @ |
+|    |
+|C s>|
+ ----
+Arcath receives 2 health from resting, up to 12 health
+- turn 31 -
+ ----
+|  @ |
+|    |
+|C s>|
+ ----
+Arcath walks right
+- turn 32 -
+ ----
+|    |
+|  @ |
+|C s>|
+ ----
+Arcath attacks Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 33 -
+ ----
+|    |
+|  @ |
+|C  >|
+ ----
+Arcath walks backward
+- turn 34 -
+ ----
+|    |
+| @  |
+|C  >|
+ ----
+Arcath walks right
+- turn 35 -
+ ----
+|    |
+|    |
+|C@ >|
+ ----
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 36 -
+ ----
+|    |
+|    |
+| @ >|
+ ----
+Arcath walks forward
+- turn 37 -
+ ----
+|    |
+|    |
+|  @>|
+ ----
+Arcath walks forward
+Success! You have found the stairs.
+Level Score: 88
+Time Bonus: 18
+Clear Bonus: 21
+Level Grade: B
+Total Score: 181 + 127 = 308
+Starting Level 5
+- turn 1 -
+ -----
+|    S|
+|@> SC|
+ -----
+Arcath walks left
+- turn 2 -
+ -----
+|@   S|
+| > SC|
+ -----
+Arcath walks forward
+- turn 3 -
+ -----
+| @  S|
+| > SC|
+ -----
+Arcath walks forward
+- turn 4 -
+ -----
+|  @ S|
+| > SC|
+ -----
+Arcath walks forward
+- turn 5 -
+ -----
+|   @S|
+| > SC|
+ -----
+Arcath binds Thick Sludge
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 17 health power left
+- turn 6 -
+ -----
+|   @S|
+| > SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 19 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 14 health power left
+- turn 7 -
+ -----
+|   @S|
+| > SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 14 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 11 health power left
+- turn 8 -
+ -----
+|   @S|
+| > SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 9 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 9 -
+ -----
+|   @S|
+| > SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 4 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 10 -
+ -----
+|   @S|
+| > SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, -1 health power left
+Thick Sludge dies
+Arcath earns 24 points
+- turn 11 -
+ -----
+|   @ |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 7 health
+- turn 12 -
+ -----
+|   @ |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 9 health
+- turn 13 -
+ -----
+|   @ |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 11 health
+- turn 14 -
+ -----
+|   @ |
+| > SC|
+ -----
+Arcath unbinds Thick Sludge
+Thick Sludge released from bonds
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 15 -
+ -----
+|   @ |
+| > SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 19 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 16 -
+ -----
+|   @ |
+| > SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 14 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 2 health power left
+- turn 17 -
+ -----
+|   @ |
+| > SC|
+ -----
+Arcath walks backward
+Thick Sludge attacks and hits nothing
+- turn 18 -
+ -----
+|  @  |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 4 health
+- turn 19 -
+ -----
+|  @  |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 6 health
+- turn 20 -
+ -----
+|  @  |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 8 health
+- turn 21 -
+ -----
+|  @  |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 10 health
+- turn 22 -
+ -----
+|  @  |
+| > SC|
+ -----
+Arcath receives 2 health from resting, up to 12 health
+- turn 23 -
+ -----
+|  @  |
+| > SC|
+ -----
+Arcath walks right
+- turn 24 -
+ -----
+|     |
+| >@SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 9 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 9 health power left
+- turn 25 -
+ -----
+|     |
+| >@SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, 4 health power left
+Thick Sludge attacks Arcath
+Arcath takes 3 damage, 6 health power left
+- turn 26 -
+ -----
+|     |
+| >@SC|
+ -----
+Arcath attacks Thick Sludge
+Thick Sludge takes 5 damage, -1 health power left
+Thick Sludge dies
+Arcath earns 24 points
+- turn 27 -
+ -----
+|     |
+| >@ C|
+ -----
+Arcath receives 2 health from resting, up to 8 health
+- turn 28 -
+ -----
+|     |
+| >@ C|
+ -----
+Arcath receives 2 health from resting, up to 10 health
+- turn 29 -
+ -----
+|     |
+| >@ C|
+ -----
+Arcath receives 2 health from resting, up to 12 health
+- turn 30 -
+ -----
+|     |
+| >@ C|
+ -----
+Arcath walks forward
+- turn 31 -
+ -----
+|     |
+| > @C|
+ -----
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 32 -
+ -----
+|     |
+| > @ |
+ -----
+Arcath walks backward
+- turn 33 -
+ -----
+|     |
+| >@  |
+ -----
+Arcath walks backward
+Success! You have found the stairs.
+Level Score: 68
+Time Bonus: 12
+Clear Bonus: 16
+Level Grade: B
+Total Score: 308 + 96 = 404
+Starting Level 6
+- turn 1 -
+ ------
+|Cs   >|
+|@  sC |
+ ------
+Arcath walks forward
+- turn 2 -
+ ------
+|Cs   >|
+| @ sC |
+ ------
+Arcath walks forward
+Sludge attacks and hits nothing
+- turn 3 -
+ ------
+|Cs   >|
+|  @sC |
+ ------
+Arcath walks left
+Sludge attacks and hits nothing
+- turn 4 -
+ ------
+|Cs@  >|
+|   sC |
+ ------
+Arcath walks forward
+Sludge attacks and hits nothing
+- turn 5 -
+ ------
+|Cs @ >|
+|   sC |
+ ------
+Arcath walks forward
+Sludge attacks and hits nothing
+- turn 6 -
+ ------
+|Cs  @>|
+|   sC |
+ ------
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 7 -
+ ------
+|Cs  @>|
+|   s  |
+ ------
+Arcath walks right
+- turn 8 -
+ ------
+|Cs   >|
+|   s@ |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 9 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 18 health power left
+- turn 9 -
+ ------
+|Cs   >|
+|   s@ |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 6 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 16 health power left
+- turn 10 -
+ ------
+|Cs   >|
+|   s@ |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 3 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 14 health power left
+- turn 11 -
+ ------
+|Cs   >|
+|   s@ |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 0 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 12 -
+ ------
+|Cs   >|
+|    @ |
+ ------
+Arcath walks backward
+- turn 13 -
+ ------
+|Cs   >|
+|   @  |
+ ------
+Arcath walks backward
+- turn 14 -
+ ------
+|Cs   >|
+|  @   |
+ ------
+Arcath walks left
+- turn 15 -
+ ------
+|Cs@  >|
+|      |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 9 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 12 health power left
+- turn 16 -
+ ------
+|Cs@  >|
+|      |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 6 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 10 health power left
+- turn 17 -
+ ------
+|Cs@  >|
+|      |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 3 health power left
+Sludge attacks Arcath
+Arcath takes 2 damage, 8 health power left
+- turn 18 -
+ ------
+|Cs@  >|
+|      |
+ ------
+Arcath attacks Sludge
+Sludge takes 3 damage, 0 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 19 -
+ ------
+|C @  >|
+|      |
+ ------
+Arcath receives 2 health from resting, up to 10 health
+- turn 20 -
+ ------
+|C @  >|
+|      |
+ ------
+Arcath receives 2 health from resting, up to 12 health
+- turn 21 -
+ ------
+|C @  >|
+|      |
+ ------
+Arcath walks backward
+- turn 22 -
+ ------
+|C@   >|
+|      |
+ ------
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 23 -
+ ------
+| @   >|
+|      |
+ ------
+Arcath walks forward
+- turn 24 -
+ ------
+|  @  >|
+|      |
+ ------
+Arcath walks forward
+- turn 25 -
+ ------
+|   @ >|
+|      |
+ ------
+Arcath walks forward
+- turn 26 -
+ ------
+|    @>|
+|      |
+ ------
+Arcath walks forward
+Success! You have found the stairs.
+Level Score: 64
+Time Bonus: 24
+Clear Bonus: 18
+Level Grade: A
+Total Score: 404 + 106 = 510
+Starting Level 7
+- turn 1 -
+ -----
+| sC >|
+|@ s C|
+| s   |
+ -----
+Arcath walks forward
+- turn 2 -
+ -----
+| sC >|
+| @s C|
+| s   |
+ -----
+Arcath binds Sludge
+Sludge attacks Arcath
+Arcath takes 3 damage, 17 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 14 health power left
+- turn 3 -
+ -----
+| sC >|
+| @s C|
+| s   |
+ -----
+Arcath binds Sludge
+Sludge attacks Arcath
+Arcath takes 3 damage, 11 health power left
+- turn 4 -
+ -----
+| sC >|
+| @s C|
+| s   |
+ -----
+Arcath attacks Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 5 -
+ -----
+| sC >|
+| @s C|
+| s   |
+ -----
+Arcath attacks Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 6 -
+ -----
+| sC >|
+| @s C|
+| s   |
+ -----
+Arcath attacks Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 7 -
+ -----
+| sC >|
+| @  C|
+| s   |
+ -----
+Arcath walks forward
+- turn 8 -
+ -----
+| sC >|
+|  @ C|
+| s   |
+ -----
+Arcath walks forward
+- turn 9 -
+ -----
+| sC >|
+|   @C|
+| s   |
+ -----
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 10 -
+ -----
+| sC >|
+|   @ |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 7 health
+- turn 11 -
+ -----
+| sC >|
+|   @ |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 9 health
+- turn 12 -
+ -----
+| sC >|
+|   @ |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 11 health
+- turn 13 -
+ -----
+| sC >|
+|   @ |
+| s   |
+ -----
+Arcath walks right
+- turn 14 -
+ -----
+| sC >|
+|     |
+| s @ |
+ -----
+Arcath walks forward
+- turn 15 -
+ -----
+| sC >|
+|     |
+| s  @|
+ -----
+Arcath walks backward
+- turn 16 -
+ -----
+| sC >|
+|     |
+| s @ |
+ -----
+Arcath walks left
+- turn 17 -
+ -----
+| sC >|
+|   @ |
+| s   |
+ -----
+Arcath walks backward
+- turn 18 -
+ -----
+| sC >|
+|  @  |
+| s   |
+ -----
+Arcath unbinds Captive
+Captive released from bonds
+Arcath earns 20 points
+- turn 19 -
+ -----
+| s  >|
+|  @  |
+| s   |
+ -----
+Arcath walks left
+- turn 20 -
+ -----
+| s@ >|
+|     |
+| s   |
+ -----
+Arcath unbinds Sludge
+Sludge released from bonds
+Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 21 -
+ -----
+| s@ >|
+|     |
+| s   |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 9 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 22 -
+ -----
+| s@ >|
+|     |
+| s   |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 6 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 2 health power left
+- turn 23 -
+ -----
+| s@ >|
+|     |
+| s   |
+ -----
+Arcath walks right
+Sludge attacks and hits nothing
+- turn 24 -
+ -----
+| s  >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 4 health
+- turn 25 -
+ -----
+| s  >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 6 health
+- turn 26 -
+ -----
+| s  >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 8 health
+- turn 27 -
+ -----
+| s  >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 10 health
+- turn 28 -
+ -----
+| s  >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 12 health
+- turn 29 -
+ -----
+| s  >|
+|  @  |
+| s   |
+ -----
+Arcath walks left
+- turn 30 -
+ -----
+| s@ >|
+|     |
+| s   |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 3 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 9 health power left
+- turn 31 -
+ -----
+| s@ >|
+|     |
+| s   |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 0 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 32 -
+ -----
+|  @ >|
+|     |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 11 health
+- turn 33 -
+ -----
+|  @ >|
+|     |
+| s   |
+ -----
+Arcath walks right
+- turn 34 -
+ -----
+|    >|
+|  @  |
+| s   |
+ -----
+Arcath walks right
+- turn 35 -
+ -----
+|    >|
+|     |
+| s@  |
+ -----
+Arcath unbinds Sludge
+Sludge released from bonds
+Sludge attacks Arcath
+Arcath takes 3 damage, 8 health power left
+- turn 36 -
+ -----
+|    >|
+|     |
+| s@  |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 9 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 5 health power left
+- turn 37 -
+ -----
+|    >|
+|     |
+| s@  |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 6 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 2 health power left
+- turn 38 -
+ -----
+|    >|
+|     |
+| s@  |
+ -----
+Arcath walks left
+Sludge attacks and hits nothing
+- turn 39 -
+ -----
+|    >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 4 health
+- turn 40 -
+ -----
+|    >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 6 health
+- turn 41 -
+ -----
+|    >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 8 health
+- turn 42 -
+ -----
+|    >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 10 health
+- turn 43 -
+ -----
+|    >|
+|  @  |
+| s   |
+ -----
+Arcath receives 2 health from resting, up to 12 health
+- turn 44 -
+ -----
+|    >|
+|  @  |
+| s   |
+ -----
+Arcath walks right
+- turn 45 -
+ -----
+|    >|
+|     |
+| s@  |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 3 health power left
+Sludge attacks Arcath
+Arcath takes 3 damage, 9 health power left
+- turn 46 -
+ -----
+|    >|
+|     |
+| s@  |
+ -----
+Arcath attacks Sludge
+Sludge takes 3 damage, 0 health power left
+Sludge dies
+Arcath earns 12 points
+- turn 47 -
+ -----
+|    >|
+|     |
+|  @  |
+ -----
+Arcath receives 2 health from resting, up to 11 health
+- turn 48 -
+ -----
+|    >|
+|     |
+|  @  |
+ -----
+Arcath walks left
+- turn 49 -
+ -----
+|    >|
+|  @  |
+|     |
+ -----
+Arcath walks forward
+- turn 50 -
+ -----
+|    >|
+|   @ |
+|     |
+ -----
+Arcath walks left
+- turn 51 -
+ -----
+|   @>|
+|     |
+|     |
+ -----
+Arcath walks forward
+CONGRATULATIONS! You have climbed to the top of the tower and rescued the fair maiden Ruby.
+Level Score: 76
+Time Bonus: 19
+Clear Bonus: 19
+Level Grade: B
+Total Score: 510 + 114 = 624
+Your average grade for this tower is: A
+
+  Level 1: S
+  Level 2: A
+  Level 3: B
+  Level 4: B
+  Level 5: B
+  Level 6: A
+  Level 7: B
+
+To practice a level, use the -l option:
+
+  rubywarrior -l 3

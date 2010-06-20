@@ -1,3 +1,10 @@
 <% title "View Profile :: " + @user.username %>
 
 <h1><%= @user.username %></h1>
+
+<h2>Ruby Warriors</h2>
+<div id="rw-scores">
+<% @user.warriors.each do |warrior| %>
+	<%= warrior.rank %>. <%= link_to warrior.name, warrior %> : <%= warrior.score %> - <%= Warrior::TOWERS[warrior.tower] %>
+<% end %>
+</div>

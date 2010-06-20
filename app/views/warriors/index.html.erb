@@ -1,0 +1,30 @@
+<% title "Ruby Warriors" %>
+
+<h1>Ruby Warriors</h1>
+
+RubyWarrior is a ruby game written by Ryan Bates of <%= link_to "Railscasts", "http://www.railscasts.com/", :target => "_blank" %> fame. The idea is to create an AI that can move through the towers rescueing captives, slaying sludges and finding the stairs.<br />
+<br />
+The game is played is by writing code into the play_turn method so for example you can win the first level by using this code:
+
+<%= "[code lang=ruby]class Player
+	def play_turn(warrior)
+		warrior.walk! warrior.direction_of_stairs
+	end
+end[/code]".tbbc %>
+
+From here your AI will evolve as it passes through the levels picking up new abilities as it goes, towards the end of the game your AI will have to run all over the level freeing soon to explode captives and will have to learn its surroundings. Once your AI finishes the tower your AI will be sent back to the begining to face the whole tower at once, which is no easy challenge as in most cases you will find that the AI struggles to face earlier levels now it prioritises tasks etc...<br />
+<br />
+Once your AI can finish epic mode it will be given a score, this section of Arcath.net is a Scoreboard for Ruby Warrior.<br />
+<br />
+<% Warrior::TOWERS.keys.each do |key| %>
+	<div id="rw-scores">
+	<h2><%= Warrior::TOWERS[key] %></h2>
+	<% i = 1 %>
+	<% for warrior in @warriors[key] do %>
+		<%= i %>. <%= link_to warrior.name, warrior %> : <%=  warrior.score %><br />
+		<% i += 1 %>
+	<% end %>
+	</div>
+<% end %>
+
+<p><%= link_to "New Warrior", new_warrior_path, :id => "newwarrior" %></p>
